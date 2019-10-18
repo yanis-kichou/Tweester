@@ -1,0 +1,289 @@
+#id{
+    display: block;
+}
+.tete {
+    display:inline-flex;
+    border-radius: 10px; 
+    width:1290px;
+    
+    padding-right: 10px;
+
+}
+.teteProfile{
+    border:1px gray solid;
+    background-color: gray;
+    opacity: 0.75;
+    height: 160px;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+}
+.centreProfile{
+    display: inline-flex;
+}
+.imageProfile{
+    border: 1px gray solid;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    opacity: 0.70;;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+.imageProfile img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.FriendsProfile{
+    border: 1px gray solid;
+    width:990px;
+    border-radius: 10px;
+
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.70;
+}
+.FriendsProfile li{
+    margin-top: 10px;
+    list-style-type:circle;
+    color:black;
+}
+.FriendsProfile li span{
+    color:gray;
+    font-weight: lighter;
+}
+.FriendsProfile span{
+    font-weight: bold;
+}
+
+.teteProfile h1{
+    margin-top:10px;
+    margin-bottom: 25px;
+    font-size: 75px;
+    
+}
+.infoProfile{
+    border: 1px gray solid;
+    width:300px;
+    height: 270px;
+    border-radius: 10px; 
+    background-color: white;
+    opacity: 0.70;
+    
+}
+.CommentsProfile li{
+    list-style-type: disc;
+}
+.CommentsProfile .mycomment{
+ font-weight: bold;
+}
+.CommentsProfile span{
+    font-weight: lighter;
+    font-size:12px;
+    color: rgb(66, 64, 64);
+
+}
+.bottomProfilte{
+    display: inline-flex;}
+.CommentsProfile{
+    border: 1px gray solid;
+    width:995px;
+    height: 270px;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.70; 
+}
+.infoProfile ul{
+    text-align: left;
+    margin-left: -10px;
+    color: black;
+    list-style-type: none;
+}
+.infoProfile ul li{
+    margin:20px auto;
+}
+.teteProfile .Button{
+    display: inline-flex;
+    margin-top: -20px;
+    margin-left: 30px;
+    border:1px green solid;
+    color:green;
+    border-radius: 5px;
+    height: 25px;
+    width: 75px;
+    text-align: centre;
+    background-color:white;
+
+}
+.Button1{
+    text-align: center;
+    margin-left: 1050px;
+    display: inline-flex;
+    margin-top: -20px;
+    border:1px green solid;
+    color:green;
+    border-radius: 5px;
+    height: 25px;
+    width: 75px;
+    text-align: centre;
+    background-color:white;
+}
+.teteProfile .Button:hover,.Button1:hover{
+    display: inline-flex;
+    margin-top: -20px;
+    margin-left: 30px;
+    border:1px white solid;
+    color:white;
+    border-radius: 5px;
+    height: 25px;
+    width: 75px;
+    text-align: centre;
+    background-color:green;
+}
+
+.tete input{
+    display:inline-block;
+    width: 1100px;
+    height: 25px;
+    margin-top: 1%;
+    margin-left: 50px;
+    margin-bottom: -20px;
+    
+}
+.tete img{
+    margin-top:-10px;
+    margin-right:-40px;
+    width: 100px;
+    height:105px ;
+    margin-bottom: -20px;
+}
+.tete button{
+    margin-top:14px;
+    height: 37px;
+    margin-left:10px;
+    margin-bottom: -20px;
+    color:white;
+    background-color:gray;
+    border-radius: 5px;
+    border: 1px solid white; 
+}
+.tete button:hover{
+    margin-top:14px;
+    height: 37px;
+    margin-left:10px;
+    margin-bottom: -20px;
+    color:gray;
+    background-color:white;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+#photoLike{
+    width:18px;
+    height:18px;
+    }
+#like{
+    width: 35px;
+    height: 22px;
+    border-radius:5px;
+    margin-left: 15px;
+    border:1px solid gray;
+    background-color: white;
+}
+.logger{
+    font-size: 14px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#murBas .right{
+    border: 2px gray solid;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    font-weight: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family:Verdana, Tahoma, sans-serif;
+    border-radius: 10px;
+
+}
+.left{
+    border: 1px gray solid;
+    background-color:whitesmoke;
+    color: black;
+    margin-left: -30px;
+    font-size: 15px;
+    font-weight: 50px;
+    font-family:Verdana, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 10px auto;
+    opacity: 0.9; 
+}
+.left ul{
+    margin-left: -30px;
+    list-style-type: none;
+    display:block;
+}
+.left h2{
+    text-align: center;
+}
+.left li input{
+    display: inline-flex;
+    background-color:rgb(196, 183, 183);
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-left:1px;
+    margin-top: 5px;
+}
+#lesTweet{
+    list-style-type: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.date{
+    margin-left: 5px;
+    font-size:10px;
+    color:gray;
+}
+.tweets{
+    float: right;
+    margin-bottom: 15px;
+}
+.friend{
+    float: left;
+    width:30%;
+    margin-left: 35px;
+}
+.t{
+    margin-bottom: 10px;
+}
+.tweets button{
+    background-color:white;
+    border-radius: 15px;
+    height: 45px;
+    border: 1px solid black;
+}
+.tweets button:hover{
+    background-color:gray;
+    color:white;
+    border-radius: 15px;
+    height: 45px;
+    border: 1px solid white;
+}
+.tweets input{
+    width: 800px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.tweets textarea{
+    width: 860px;
+    height: 490px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
